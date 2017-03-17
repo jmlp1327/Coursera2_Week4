@@ -19,6 +19,11 @@
 		4F8A51BC1E7AE16200D1BB3A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51BB1E7AE16200D1BB3A /* InterfaceController.swift */; };
 		4F8A51BE1E7AE16200D1BB3A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51BD1E7AE16200D1BB3A /* ExtensionDelegate.swift */; };
 		4F8A51C01E7AE16200D1BB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8A51BF1E7AE16200D1BB3A /* Assets.xcassets */; };
+		4F8A51D01E7AF61E00D1BB3A /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51CF1E7AF61E00D1BB3A /* Pizza.swift */; };
+		4F8A51D21E7AF73200D1BB3A /* StepTwoWIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51D11E7AF73200D1BB3A /* StepTwoWIC.swift */; };
+		4F8A51D41E7AF75A00D1BB3A /* StepThreeWIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51D31E7AF75A00D1BB3A /* StepThreeWIC.swift */; };
+		4F8A51D61E7AF78F00D1BB3A /* StepFourWIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51D51E7AF78F00D1BB3A /* StepFourWIC.swift */; };
+		4F8A51D81E7AF7A300D1BB3A /* ResultWIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A51D71E7AF7A300D1BB3A /* ResultWIC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,11 @@
 		4F8A51BD1E7AE16200D1BB3A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		4F8A51BF1E7AE16200D1BB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F8A51C11E7AE16200D1BB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8A51CF1E7AF61E00D1BB3A /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		4F8A51D11E7AF73200D1BB3A /* StepTwoWIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwoWIC.swift; sourceTree = "<group>"; };
+		4F8A51D31E7AF75A00D1BB3A /* StepThreeWIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThreeWIC.swift; sourceTree = "<group>"; };
+		4F8A51D51E7AF78F00D1BB3A /* StepFourWIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepFourWIC.swift; sourceTree = "<group>"; };
+		4F8A51D71E7AF7A300D1BB3A /* ResultWIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultWIC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +160,11 @@
 				4F8A51BD1E7AE16200D1BB3A /* ExtensionDelegate.swift */,
 				4F8A51BF1E7AE16200D1BB3A /* Assets.xcassets */,
 				4F8A51C11E7AE16200D1BB3A /* Info.plist */,
+				4F8A51CF1E7AF61E00D1BB3A /* Pizza.swift */,
+				4F8A51D11E7AF73200D1BB3A /* StepTwoWIC.swift */,
+				4F8A51D31E7AF75A00D1BB3A /* StepThreeWIC.swift */,
+				4F8A51D51E7AF78F00D1BB3A /* StepFourWIC.swift */,
+				4F8A51D71E7AF7A300D1BB3A /* ResultWIC.swift */,
 			);
 			path = "PizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8A51D21E7AF73200D1BB3A /* StepTwoWIC.swift in Sources */,
+				4F8A51D81E7AF7A300D1BB3A /* ResultWIC.swift in Sources */,
+				4F8A51D41E7AF75A00D1BB3A /* StepThreeWIC.swift in Sources */,
 				4F8A51BE1E7AE16200D1BB3A /* ExtensionDelegate.swift in Sources */,
 				4F8A51BC1E7AE16200D1BB3A /* InterfaceController.swift in Sources */,
+				4F8A51D01E7AF61E00D1BB3A /* Pizza.swift in Sources */,
+				4F8A51D61E7AF78F00D1BB3A /* StepFourWIC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +568,7 @@
 				4F8A51C61E7AE16200D1BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F8A51C81E7AE16200D1BB3A /* Build configuration list for PBXNativeTarget "PizzaWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +577,7 @@
 				4F8A51CA1E7AE16200D1BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F8A51CC1E7AE16200D1BB3A /* Build configuration list for PBXNativeTarget "PizzaWatch" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +586,7 @@
 				4F8A51CE1E7AE16200D1BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
